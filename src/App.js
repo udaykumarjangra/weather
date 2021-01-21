@@ -25,7 +25,7 @@ function App()
     if (seconds < 10) {seconds = "0"+seconds;}
     return hours+':'+minutes+':'+seconds;
 }
-  const API = 'b699813d0d7caf37039051c08549ecd1';
+  const API = //Your OpenWeather API ID;
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState({});
   const [error, setError] = useState('');
